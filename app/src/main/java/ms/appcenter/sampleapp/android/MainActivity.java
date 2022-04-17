@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     Analytics.class, Crashes.class, Distribute.class);
         } else {
             // Otherwise use the hardcoded string value here
-            AppCenter.start(getApplication(), "<APP SECRET HERE>",
+            AppCenter.start(getApplication(), "05df4019-e8de-4fb5-ad1f-940e7f5f25c4",
                     Analytics.class, Crashes.class, Distribute.class);
         }
 
